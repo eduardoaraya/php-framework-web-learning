@@ -22,7 +22,7 @@ class Products extends Model
       parent::__construct($data);
     }
 
-    public function allWitchCategories()
+    public function allWithCategories()
     {
       return $this->db->connection()->query("
       SELECT products.* , 
