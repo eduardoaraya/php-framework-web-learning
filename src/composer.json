@@ -1,0 +1,23 @@
+{
+    "name": "eduar/src",
+    "scripts": {
+        "serve":"php -S localhost:8000 -t public"
+    },
+    "authors": [
+        {
+            "name": "Eduardo Araya",
+            "email": "eduardojezine@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "AssessmentBackendxp\\":"./"
+        }
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}
